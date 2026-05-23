@@ -6,18 +6,42 @@
 
 ## 📈 A Lógica do Laboratório (Passo a Passo)
 
-Para entender este projeto de forma clara e linear, basta seguir a sequência natural das fases abaixo:
+Para entender este projeto de forma clara e linear, siga a sequência natural do fluxo de trabalho abaixo:
 
-1. **O Cenário Inicial:** Montagem de uma infraestrutura isolada para testes seguros.
-2. **O Desafio Real:** Endurecimento das defesas do Windows.
-3. **A Ação Defensiva:** Investigação minuciosa de incidentes usando técnicas forenses modernas.
-4. **A Reconstrução do Ataque:** Agrupamento e correlação de eventos para montar a linha do tempo do incidente.
-5. **A Lapidação da Análise:** Triagem e filtragem de falsos positivos para separar ruídos do sistema de ameaças reais.
-6. **A Resposta ao Incidente:** Aplicação de novas políticas rígidas de contenção para neutralizar a ameaça.
-7. **A Proatividade:** Automação de gatilhos e alertas para detecção imediata de novos comportamentos maliciosos.
+⚙️ **01. O Cenário Inicial** └─ Montagem e isolamento de uma infraestrutura segura para os testes.  
+📌 *Status: Infraestrutura pronta.*
+
+🔽
+
+🛡️ **02. O Desafio Real** └─ Aplicação de endurecimento (hardening) e auditoria avançada no Windows.  
+📌 *Status: Coleta e visibilidade ativadas.*
+
+🔽
+
+🔍 **03. A Ação Defensiva** └─ Investigação minuciosa de incidentes em tempo real e caça a malwares presentes.  
+📌 *Status: Detecção inicial de ameaças.*
+
+🔽
+
+⏳ **04. A Reconstrução do Ataque** └─ Correlação e agrupamento de eventos para montar a linha do tempo do incidente.  
+📌 *Status: Compreensão total do comportamento do artefato.*
+
+🔽
+
+🧹 **05. A Lapidação da Análise** └─ Triagem fina e filtragem para separar ruídos do sistema operacional de ameaças reais.  
+📌 *Status: Redução drástica de falsos positivos.*
+
+🔽
+
+💥 **06. A Resposta ao Incidente** └─ Aplicação de novas políticas rígidas de mitigação para neutralizar o malware descoberto.  
+📌 *Status: Contenção e endurecimento pós-crise.*
+
+🔽
+
+🚨 **07. A Proatividade** └─ Automação de gatilhos e alertas para detecção imediata de novos comportamentos.  
+📌 *Status: Monitoramento contínuo e inteligente.*
 
 ---
-
 ## 🗺️ Índice de Navegação Direta
 
 Caso queira ir direto a um ponto específico, utilize o menu abaixo. Cada tópico resolve uma dor específica da cibersegurança defensiva:
