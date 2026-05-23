@@ -18,10 +18,14 @@ Para entender este projeto de forma clara e linear, basta seguir a sequência na
 
 Caso queira ir direto a um ponto específico, utilize o menu abaixo. Cada tópico resolve uma dor específica da cibersegurança defensiva:
 
-| Módulo | O que você vai aprender aqui? | Status |
-| :--- | :--- | :--- |
-| 🖥️ **[1. Ambiente-Lab](./1-Ambiente-Lab.md)** | Como montei a infraestrutura e isolei as redes para os testes. | 🟢 Concluído |
-| 📊 **[2. Coleta-de-Evidencias](./2-coleta-de-evidencias.md)** | A instalação do Sysmon e a configuração para os logs. | 🟡 Em progresso |
-| 🔍 **[3. Artefatos-do-Windows](./3-artefatos-windows.md)** | A prática: investigando força bruta e malwares antigos. | 🔴 Planejado |
+| Módulo | O que você vai aprender aqui? |
+| :--- | :--- |
+| 🖥️ **[1. Ambiente-Lab](./1-Ambiente-Lab.md)** | Criação e configuração do ambiente de trabalho. |
+| ⚙️ **[2. Instalacao-Sysmon-Configuracoes](./2-Instalacao-Sysmon-Configuracoes.md)** | Configuração de logs e endurecimento (hardening). |
+| 🔍 **[3. Pratica-Investigando-Malwares-Antigos-Forca-Bruta](./3-Pratica-Investigando-Malwares-Antigos-Forca-Bruta.md)** | Detecção inicial e análise das ameaças presentes. |
+| ⏳ **[4. Linha-Tempo-Evidencias](./4-Linha-Tempo-Evidencias.md)** | Agrupamento e correlação de eventos para montar a história do ataque. |
+| 🧹 **[5. Triagem-Falsos-Positivos](./5-Triagem-Falsos-Positivos.md)** | Filtro e refinamento para separar o que é ruído do Windows e o que é ameaça real. |
+| 🛡️ **[6. Mitigacao-Hardening-Pos-Incidente](./6-Mitigacao-Hardening-Pos-Incidente.md)** | Aplicação de novas políticas no Windows para neutralizar o malware detectado. |
+| 🚨 **[7. Automatizacao-Alertas](./7-Automatizacao-Alertas.md)** | Criação de gatilhos para que o sistema avise automaticamente sobre novos comportamentos maliciosos. |
 
 ---
