@@ -1,6 +1,6 @@
 # 0️⃣ Introdução Geral e Escopo do Projeto
 
-🎯 **Em resumo:** Este projeto transforma uma máquina Windows comum em um ambiente altamente auditável (via Sysmon). Aqui, eu demonstro como simular ataques cibernéticos e caçar os rastros que os malwares deixam no presente.
+🎯 **Em resumo:** Este projeto transforma uma máquina Windows comum em um ambiente de auditoria avançada. Combinando o Sysmon e o Event Viewer, eu demonstro como emular técnicas de ataque e identificar os indicadores de comprometimento (IoCs) que as ameaças deixam ativas no sistema operacional.
 
 ---
 ## 📈 A Lógica do Laboratório (Passo a Passo)
