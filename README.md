@@ -11,32 +11,26 @@ Para entender este projeto de forma clara e linear, siga a sequência natural do
 ⚙️ **01. O Cenário Inicial** └─ Montagem e isolamento de uma infraestrutura segura para os testes.  
 📌 *Status: Infraestrutura pronta.*
 
-🔽
 
 🛡️ **02. O Desafio Real** └─ Aplicação de endurecimento (hardening) e auditoria avançada no Windows.  
 📌 *Status: Coleta e visibilidade ativadas.*
 
-🔽
 
 🔍 **03. A Ação Defensiva** └─ Investigação minuciosa de incidentes em tempo real e caça a malwares presentes.  
 📌 *Status: Detecção inicial de ameaças.*
 
-🔽
 
 ⏳ **04. A Reconstrução do Ataque** └─ Correlação e agrupamento de eventos para montar a linha do tempo do incidente.  
 📌 *Status: Compreensão total do comportamento do artefato.*
 
-🔽
 
 🧹 **05. A Lapidação da Análise** └─ Triagem fina e filtragem para separar ruídos do sistema operacional de ameaças reais.  
 📌 *Status: Redução drástica de falsos positivos.*
 
-🔽
 
 💥 **06. A Resposta ao Incidente** └─ Aplicação de novas políticas rígidas de mitigação para neutralizar o malware descoberto.  
 📌 *Status: Contenção e endurecimento pós-crise.*
 
-🔽
 
 🚨 **07. A Proatividade** └─ Automação de gatilhos e alertas para detecção imediata de novos comportamentos.  
 📌 *Status: Monitoramento contínuo e inteligente.*
