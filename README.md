@@ -21,7 +21,7 @@ Caso queira ir direto a um ponto específico, utilize o menu abaixo. Cada tópic
 | Módulo | O que você vai aprender aqui? | Status |
 | :--- | :--- | :--- |
 | 🖥️ **[1. Ambiente-Lab](./1-Ambiente-Lab.md)** | Como montei a infraestrutura e isolei as redes para os testes. | 🟢 Concluído |
-| 📊 **[2. Coleta-de-Evidencias](./2-coleta-de-evidencias.md)** | A instalação do Sysmon e a configuração para os logs não expirarem. | 🟡 Em progresso |
+| 📊 **[2. Coleta-de-Evidencias](./2-coleta-de-evidencias.md)** | A instalação do Sysmon e a configuração para os logs. | 🟡 Em progresso |
 | 🔍 **[3. Artefatos-do-Windows](./3-artefatos-windows.md)** | A prática: investigando força bruta e malwares antigos. | 🔴 Planejado |
 
 ---
