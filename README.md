@@ -1,6 +1,6 @@
 # 0️⃣ Introdução Geral e Escopo do Projeto
 
-> 🎯 **Em resumo:** Este projeto transforma uma máquina Windows comum em um ambiente altamente auditável (via Sysmon). Aqui, eu demonstro como simular ataques cibernéticos e caçar os rastros que os malwares deixam no presente.
+🎯 **Em resumo:** Este projeto transforma uma máquina Windows comum em um ambiente altamente auditável (via Sysmon). Aqui, eu demonstro como simular ataques cibernéticos e caçar os rastros que os malwares deixam no presente.
 
 ---
 
@@ -9,8 +9,12 @@
 Para entender este projeto de forma clara e linear, basta seguir a sequência natural das fases abaixo:
 
 1. **O Cenário Inicial:** Montagem de uma infraestrutura isolada para testes seguros.
-2. **O Desafio Real:** Modificação das defesas do Windows.
+2. **O Desafio Real:** Endurecimento das defesas do Windows.
 3. **A Ação Defensiva:** Investigação minuciosa de incidentes usando técnicas forenses modernas.
+4. **A Reconstrução do Ataque:** Agrupamento e correlação de eventos para montar a linha do tempo do incidente.
+5. **A Lapidação da Análise:** Triagem e filtragem de falsos positivos para separar ruídos do sistema de ameaças reais.
+6. **A Resposta ao Incidente:** Aplicação de novas políticas rígidas de contenção para neutralizar a ameaça.
+7. **A Proatividade:** Automação de gatilhos e alertas para detecção imediata de novos comportamentos maliciosos.
 
 ---
 
