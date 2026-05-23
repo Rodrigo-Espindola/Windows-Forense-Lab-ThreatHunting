@@ -3,7 +3,6 @@
 🎯 **Em resumo:** Este projeto transforma uma máquina Windows comum em um ambiente altamente auditável (via Sysmon). Aqui, eu demonstro como simular ataques cibernéticos e caçar os rastros que os malwares deixam no presente.
 
 ---
-
 ## 📈 A Lógica do Laboratório (Passo a Passo)
 
 Para entender este projeto de forma clara e linear, siga a sequência natural do fluxo de trabalho abaixo:
@@ -36,6 +35,7 @@ Para entender este projeto de forma clara e linear, siga a sequência natural do
 📌 *Status: Monitoramento contínuo e inteligente.*
 
 ---
+
 ## 🗺️ Índice de Navegação Direta
 
 Caso queira ir direto a um ponto específico, utilize o menu abaixo. Cada tópico resolve uma dor específica da cibersegurança defensiva:
