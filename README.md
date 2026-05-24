@@ -42,6 +42,8 @@ Para entender este projeto de forma clara e linear, siga a sequência natural do
 > * **Foco:** Automação de gatilhos e alertas para detecção imediata de novos comportamentos.
 > * *Resultado:* Monitoramento contínuo e inteligente estabelecido.
 
+---
+
 
 ## 🗺️ Índice de Navegação Direta
 
