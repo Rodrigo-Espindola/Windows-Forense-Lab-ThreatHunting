@@ -15,13 +15,21 @@ O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hiperv
 
 ## 🗺️ Índice do Módulo
 
-1. [🌐 1. Arquitetura e Topologia da Rede Isolada](#-1-arquitetura-e-topologia-da-rede-isolada)
-   * 1.1 Configuração do Switch Virtual (Rede NAT Customizada)
-   * 1.2 Regras de Isolamento e Mitigação de Riscos (Análise de Segurança)
-2. [🐧 2. Provisionamento da Máquina do Atacante (Kali Linux)](#-2-provisionamento-da-maquina-do-atacante-kali-linux)
-   * 2.1 Especificações de Hardware e Vinculação de Rede
-3. [🪟 3. Provisionamento da Máquina Alvo (Windows 11)](#-3-provisionamento-da-maquina-alvo-windows-11)
-   * 3.1 Especificações de Hardware e Vinculação de Rede
-4. [🔍 4. Validação Prática do Perímetro e Conectividade](#-4-validacao-pratica-do-perimetro-e-conectividade)
-   * 4.1 Teste de Endereçamento IP (DHCP)
-   * 4.2 Teste de Conectividade Interna (Kali 🤝 Windows)
+## 🗺️ Passo a Passo do Laboratório
+
+* **[🚀 Passo 01]** **Conectando a Rede Isolada (`Lab-Secure`)**
+  * *Como configurar o Switch Virtual no VirtualBox e o print da placa de rede.*
+<br>
+
+* **[🪟 Passo 02]** **Configurando a Vítima (Windows 11 + Sysmon)**
+  * *Instalação prática do Sysmon via linha de comando e validação dos logs no Event Viewer.*
+<br>
+
+* **[🐧 Passo 03]** **Preparando o Atacante (Kali Linux)**
+  * *Colocando o Kali na mesma rede e deixando as ferramentas de ataque prontas.*
+<br>
+
+* **[🔍 Passo 04]** **Validação Final (O Teste de Conectividade)**
+  * *Print do comando `ipconfig` / `ifconfig` e o teste de ping entre as duas máquinas.*
+
+---
