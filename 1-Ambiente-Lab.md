@@ -17,19 +17,42 @@ O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hiperv
 ## 🗺️ Passo a Passo do Laboratório
 
 
-* **[🚀 Passo 01](#-passo-01-conectando-a-rede-isolada-lab-secure)** **Conectando a Rede Isolada (`Lab-Secure`)**
+### 📈 Fluxo do Laboratório (Clique para ir direto ao Passo)
+
+* **[🚀 Passo 01](#passo1)** **Conectando a Rede Isolada (`Lab-Secure`)**
   * _Como configurar o Switch Virtual no VirtualBox e o print da placa de rede._
-<br>
 
-* **[🪟 Passo 02]** **Configurando a Vítima (Windows 11 + Sysmon)**
-  * *Instalação prática do Sysmon via linha de comando e validação dos logs no Event Viewer.*
-<br>
+* **[🪟 Passo 02](#passo2)** **Configurando a Vítima (Windows 11 + Sysmon)**
+  * _Instalação prática do Sysmon via linha de comando e validação dos logs no Event Viewer._
 
-* **[🐧 Passo 03]** **Preparando o Atacante (Kali Linux)**
-  * *Colocando o Kali na mesma rede e deixando as ferramentas de ataque prontas.*
-<br>
+* **[🐧 Passo 03](#passo3)** **Preparando o Atacante (Kali Linux)**
+  * _Colocando o Kali na mesma rede e deixando as ferramentas de ataque prontas._
 
-* **[🔍 Passo 04]** **Validação Final (O Teste de Conectividade)**
-  * *Print do comando `ipconfig` / `ifconfig` e o teste de ping entre as duas máquinas.*
+* **[🔍 Passo 04](#passo4)** **Validação Final (O Teste de Conectividade)**
+  * _Print do comando `ipconfig` / `ifconfig` e o teste de ping entre as duas máquinas._
+
+---
+
+## 🚀 Passo 01 <a name="passo1"></a>
+### Conectando a Rede Isolada (`Lab-Secure`)
+> Escreva o conteúdo do Passo 1 aqui...
+
+---
+
+## 🪟 Passo 02 <a name="passo2"></a>
+### Configurando a Vítima (Windows 11 + Sysmon)
+> Escreva o conteúdo do Passo 2 aqui...
+
+---
+
+## 🐧 Passo 03 <a name="passo3"></a>
+### Preparando o Atacante (Kali Linux)
+> Escreva o conteúdo do Passo 3 aqui...
+
+---
+
+## 🔍 Passo 04 <a name="passo4"></a>
+### Validação Final (O Teste de Conectividade)
+> Escreva o conteúdo do Passo 4 aqui...
 
 ---
