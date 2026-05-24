@@ -3,7 +3,7 @@
 
 # 🖥️ Módulo 1: Arquitetura e Montagem do Ambiente de Laboratório
 
-🎯 **Objetivo do Módulo:** Estabelecer uma infraestrutura local controlada, segura e 100% isolada da rede física (produção), composta por uma máquina de ataque (Kali Linux) e uma máquina de auditoria/vítima (Windows 11). Este ambiente servirá de base para a geração, coleta e análise de telemetria defensiva através do Sysmon e do Windows Event Viewer.
+🎯 **Objetivo do Módulo: Estabelecer uma infraestrutura de laboratório local segregada e protegida contra movimentação lateral, utilizando uma Rede NAT Customizada. Este design garante o isolamento lógico da rede física local (produção), permitindo que ferramentas de simulação de ataque (Kali Linux) e coleta de telemetria (Windows + Sysmon) operem de forma segura, mantendo o acesso controlado à internet apenas para a atualização de pacotes e assinaturas.
 
 ---
 
