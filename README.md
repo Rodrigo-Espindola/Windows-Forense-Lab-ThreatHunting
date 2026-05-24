@@ -13,35 +13,33 @@ Para entender este projeto de forma clara e linear, siga a sequência natural do
 
 ---
 
-> 🚨 **02. A Proatividade**
-> * **Foco:** Automação de gatilhos e alertas para detecção imediata de novos comportamentos.
-> * *Resultado:* Monitoramento contínuo e inteligente estabelecido.
-
----
-
-> 🔍 **03. A Ação Defensiva**
+> 🔍 **02. A Ação Defensiva**
 > * **Foco:** Investigação minuciosa de incidentes em tempo real e caça a malwares presentes.
 > * *Resultado:* Detecção inicial de ameaças e artefatos.
 
 ---
 
-> ⏳ **04. A Reconstrução do Ataque**
+> ⏳ **03. A Reconstrução do Ataque**
 > * **Foco:** Correlação e agrupamento de eventos para montar a linha do tempo do incidente.
 > * *Resultado:* Compreensão total do comportamento do artefato malicioso.
 
 ---
 
-> 🧹 **05. A Lapidação da Análise**
+> 🧹 **04. A Lapidação da Análise**
 > * **Foco:** Triagem fina e filtragem para separar ruídos do sistema operacional de ameaças reais.
 > * *Resultado:* Redução drástica de falsos positivos na análise.
 
 ---
 
-> 💥 **06. A Resposta ao Incidente**
+> 💥 **05. A Resposta ao Incidente**
 > * **Foco:** Aplicação de novas políticas rígidas de mitigação para neutralizar o malware descoberto.
 > * *Resultado:* Contenção da ameaça e endurecimento pós-crise.
 
 ---
+
+> 🚨 **06. A Proatividade**
+> * **Foco:** Automação de gatilhos e alertas para detecção imediata de novos comportamentos.
+> * *Resultado:* Monitoramento contínuo e inteligente estabelecido.
 
 
 ## 🗺️ Índice de Navegação Direta
