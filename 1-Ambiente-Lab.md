@@ -16,6 +16,7 @@ O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hiperv
 
 ## 🗺️ Passo a Passo do Laboratório
 
+
 * **[🚀 Passo 01]** **Conectando a Rede Isolada (`Lab-Secure`)**
   * *Como configurar o Switch Virtual no VirtualBox e o print da placa de rede.*
 <br>
