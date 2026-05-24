@@ -6,6 +6,7 @@
 ## 📈 A Lógica do Laboratório (Passo a Passo)
 
 Para entender este projeto de forma clara e linear, siga a sequência natural do fluxo de trabalho abaixo:
+
 ---
 
 > ⚙️ **01. O Cenário Inicial**
