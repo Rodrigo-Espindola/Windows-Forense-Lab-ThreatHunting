@@ -13,7 +13,6 @@ O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hiperv
 
 ---
 
-## 🗺️ Índice do Módulo
 
 ## 🗺️ Passo a Passo do Laboratório
 
