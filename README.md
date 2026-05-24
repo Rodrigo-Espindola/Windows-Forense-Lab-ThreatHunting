@@ -7,9 +7,10 @@
 
 Para entender este projeto de forma clara e linear, siga a sequência natural do fluxo de trabalho abaixo:
 
-> ⚙️ **01. O Cenário Inicial**
-> * **Foco:** Montagem e isolamento de uma infraestrutura segura para os testes.
-> * *Resultado:* Ambiente controlado pronto para simulações.
+⚙️ 01. O Cenário Inicial
+Foco: Montagem e isolamento da rede "Lab-Secure" no VirtualBox.
+Ação: Instalação do Sysmon via linha de comando e preparação do Event Viewer para auditoria de logs.
+Resultado: Ambiente seguro e monitorado, pronto para capturar a telemetria dos ataques do Kali Linux.
 
 ---
 
