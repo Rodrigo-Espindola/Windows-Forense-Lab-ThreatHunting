@@ -13,9 +13,9 @@ Para entender este projeto de forma clara e linear, siga a sequência natural do
 
 ---
 
-> 🛡️ **02. O Desafio Real**
-> * **Foco:** Aplicação de endurecimento (hardening) e auditoria avançada no Windows.
-> * *Resultado:* Coleta de logs e visibilidade total ativadas.
+> 🚨 **02. A Proatividade**
+> * **Foco:** Automação de gatilhos e alertas para detecção imediata de novos comportamentos.
+> * *Resultado:* Monitoramento contínuo e inteligente estabelecido.
 
 ---
 
@@ -43,12 +43,6 @@ Para entender este projeto de forma clara e linear, siga a sequência natural do
 
 ---
 
-> 🚨 **07. A Proatividade**
-> * **Foco:** Automação de gatilhos e alertas para detecção imediata de novos comportamentos.
-> * *Resultado:* Monitoramento contínuo e inteligente estabelecido.
-
-
----
 
 ## 🗺️ Índice de Navegação Direta
 
