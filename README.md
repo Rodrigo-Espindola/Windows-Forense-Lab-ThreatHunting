@@ -1,9 +1,9 @@
-# 0️⃣ Introdução Geral e Escopo do Projeto
+ 0️⃣ Introdução Geral e Escopo do Projeto
 
 🎯 **Em resumo:** Este projeto transforma uma máquina Windows comum em um ambiente de auditoria avançada. Combinando o Sysmon e o Event Viewer, eu demonstro como emular técnicas de ataque e identificar os indicadores de comprometimento (IoCs) que as ameaças deixam ativas no sistema operacional.
 
 ---
-## 📈 A Lógica do Laboratório (Passo a Passo)
+ 📈 A Lógica do Laboratório (Passo a Passo)
 
 Para entender este projeto de forma clara e linear, siga a sequência natural do fluxo de trabalho abaixo:
 
