@@ -37,7 +37,7 @@ O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hiperv
 Para garantir que os testes defensivos e os artefatos manipulados não ofereçam riscos ao ambiente de produção ou à minha rede física residencial, configurei um segmento de rede logicamente isolado no VirtualBox.
 
 ### 📸 Evidência da Configuração de Rede:
-*(Insira a sua imagem aqui. No GitHub fica assim: ![](imagens/Rede-Nat-config.png)*
+* ![](imagens/Rede-Nat-config.png)*
 
 ---
 
