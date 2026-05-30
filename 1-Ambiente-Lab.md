@@ -19,7 +19,7 @@ O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hiperv
  📈 Fluxo do Laboratório (Clique para ir direto ao Passo)
 
 * **[🚀 Passo 01](#passo1)** **Conectando a Rede Isolada (`Lab-Secure`)**
-  * _Como configurar o Switch Virtual no VirtualBox e o print da placa de rede._
+  * _Como configurar o Switch Virtual no VirtualBox.
 
 * **[🪟 Passo 02](#passo2)** **Configurando a Vítima (Windows 11 + Sysmon)**
   * _Instalação prática do Sysmon via linha de comando e validação dos logs no Event Viewer._
