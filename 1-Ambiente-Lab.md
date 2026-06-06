@@ -14,7 +14,7 @@ Escopo: Ambiente controlado para simulação de ataques (Kali Linux) e coleta de
 [ VM Atacante: Kali Linux ] ──(Rede NAT: Lab-Secure)──> [ VM Alvo: Windows + Sysmon ]
 
 
-## 🚀 Passo 01 <a name="passo1"></a>
+  
 ### Conectando a Rede Isolada (`Lab-Secure`)
 Para garantir que os testes defensivos e os artefatos manipulados não ofereçam riscos ao ambiente de produção ou à minha rede física residencial, configurei um segmento de rede logicamente isolado no VirtualBox.
 
