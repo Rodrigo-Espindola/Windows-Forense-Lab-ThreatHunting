@@ -63,7 +63,7 @@ Executamos o Prompt de Comando como Administrador para instalar o serviço do Sy
 * ![](imagens/ambiente/Install-Sysmon.png)*
 
 #### 📸 Evidência da instalação do arquivo de configuração de regras xml :
-* ![](imagens/ambiente/atualização-das-regras-de-detcção.png)*
+* ![](imagens/ambiente/Atualização-das-regras-de-detcção.png)*
 ---
 
 ## 🐧 Passo 03 <a name="passo3"></a>
