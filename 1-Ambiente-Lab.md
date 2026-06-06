@@ -11,8 +11,6 @@ Escopo: Ambiente controlado para simulação de ataques (Kali Linux) e coleta de
 
 ## 🗺️ Topologia Lógica e Perímetro de Rede
 
-O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hipervisor. Ambas as máquinas compartilham o mesmo switch virtual isolado, permitindo o tráfego de ataques e coletas internas sem expor o sistema hospedeiro:
-
 [ VM Atacante: Kali Linux ] ──(Rede NAT: Lab-Secure)──> [ VM Alvo: Windows + Sysmon ]
 
 
