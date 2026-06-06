@@ -70,7 +70,8 @@ Executamos o Prompt de Comando como Administrador para instalar o serviço do Sy
 Executamos o comando de atualização apontando para o arquivo de configuração customizado.
 
 ##### 📸 Evidência da instalação do arquivo de configuração de regras xml:
-![Atualização das Regras](imagens/ambiente/atualizacao-regras-deteccao.png)
+![Atualização das Regras](imagens/ambiente/Atualizacao-das-regras-de-deteccao.png)
+
 ---
 
 ## 🐧 Passo 03 <a name="passo3"></a>
