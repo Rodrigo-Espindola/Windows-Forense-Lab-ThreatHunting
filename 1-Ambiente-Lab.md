@@ -51,10 +51,18 @@ O adaptador de rede da máquina virtual foi configurado sob os seguintes critér
 
 ---
 
-## 🪟 Passo 02 <a name="passo2"></a>
+## 🪟 Passo 02 <a name="passo2">/imagens/ambiente/install sysmon.png</a>
 ### Configurando a Vítima (Windows 11 + Sysmon)
-> Escreva o conteúdo do Passo 2 aqui...
+## 🪟 Passo 02 <a name="passo2">imagens/ambiente/atualização das regras de detecção.png</a>
+### Configurando a Vítima (Windows 11 + Sysmon)
 
+Nesta etapa, realizamos a instalação do Sysmon e a aplicação do arquivo de configuração personalizado para coletar a telemetria do sistema.
+
+#### 1. Instalação do Sysmon
+Executamos o Prompt de Comando como Administrador para instalar o serviço do Sysmon, aceitando automaticamente os termos de uso (EULA):
+
+```cmd
+sysmon64.exe -accepteula -i
 ---
 
 ## 🐧 Passo 03 <a name="passo3"></a>
