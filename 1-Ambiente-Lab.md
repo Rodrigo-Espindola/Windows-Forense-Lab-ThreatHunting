@@ -60,7 +60,7 @@ Nesta etapa, realizamos a instalação do Sysmon e a aplicação do arquivo de c
 #### 1. Instalação do Sysmon
 Executamos o Prompt de Comando como Administrador para instalar o serviço do Sysmon, aceitando automaticamente os termos de uso (EULA):
 ### 📸 Evidência da instalação do sysmon:
-* ![](imagens/ambiente/install-sysmon.png)*
+* ![](imagens/ambiente/Install-Sysmon.png)*
 
 #### 📸 Evidência da instalação do arquivo de configuração de regras xml :
 * ![](imagens/ambiente/atualização-das-regras-de-detcção.png)*
