@@ -3,7 +3,11 @@
 
 # 🖥️ Módulo 1: Arquitetura e Montagem do Ambiente de Laboratório
 
-🎯 Objetivo do Módulo: Estabelecer uma infraestrutura de laboratório local segregada e protegida contra movimentação lateral, utilizando uma Rede NAT Customizada. Este design garante o isolamento lógico da rede física local (produção), permitindo que ferramentas de simulação de ataque (Kali Linux) e coleta de telemetria (Windows + Sysmon) operem de forma segura, mantendo o acesso controlado à internet apenas para a atualização de pacotes e assinaturas.
+Objetivo: Estabelecer infraestrutura de laboratório segregada via Rede NAT Customizada (Lab-Secure).
+
+Isolamento Lógico: Proteção contra movimentação lateral e prevenção de vazamento de tráfego (port scans/exploits) para a rede física.
+
+Escopo: Ambiente controlado para simulação de ataques (Kali Linux) e coleta de telemetria (Windows + Sysmon), com acesso à internet restrito apenas para atualizações de segurança.
 
 ## 🗺️ Topologia Lógica e Perímetro de Rede
 
