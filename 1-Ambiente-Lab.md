@@ -32,7 +32,7 @@ O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hiperv
 
 ---
 
-## 🚀 Passo 01 <a name="passo1"></a>
+## 🚀 Passo 01 <a name="passo1"></a> [Ir para o Passo 01](#passo1)
 ### Conectando a Rede Isolada (`Lab-Secure`)
 Para garantir que os testes defensivos e os artefatos manipulados não ofereçam riscos ao ambiente de produção ou à minha rede física residencial, configurei um segmento de rede logicamente isolado no VirtualBox.
 
