@@ -51,7 +51,7 @@ O adaptador de rede da máquina virtual foi configurado sob os seguintes critér
 
 ---
 
-## 🪟 Passo 02 
+## 🪟 Passo 02 <a name="passo2"></a>
 ### Configurando a Vítima (Windows 11 + Sysmon)
 
 Nesta etapa, realizamos a instalação do Sysmon e a aplicação do arquivo de configuração personalizado para coletar a telemetria do sistema.
