@@ -7,7 +7,7 @@ Objetivo: Estabelecer infraestrutura de laboratório segregada via Rede NAT Cust
 
 Isolamento Lógico: Proteção contra movimentação lateral e prevenção de vazamento de tráfego (port scans/exploits) para a rede física.
 
-Escopo: Ambiente controlado para simulação de ataques (Kali Linux) e coleta de telemetria (Windows + Sysmon), com acesso à internet restrito apenas para atualizações de segurança.
+Escopo: Ambiente controlado para simulação de ataques (Kali Linux) e coleta de telemetria (Windows + Sysmon).
 
 ## 🗺️ Topologia Lógica e Perímetro de Rede
 
