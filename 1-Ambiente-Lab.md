@@ -11,26 +11,6 @@ O diagrama abaixo ilustra o fluxo de comunicação estabelecido dentro do hiperv
 
 [ VM Atacante: Kali Linux ] ──(Rede NAT: Lab-Secure)──> [ VM Alvo: Windows + Sysmon ]
 
----
-
-
-## 🗺️ Passo a Passo do Laboratório
-
- 📈 Fluxo do Laboratório (Clique para ir direto ao Passo)
- 
-* **[🚀 Passo 01](#passo1)** **Conectando a Rede Isolada (`Lab-Secure`)**
-  * _Como configurar o Switch Virtual no VirtualBox.
-
-* **[🪟 Passo 02](#passo2)** **Configurando a Vítima (Windows 11 + Sysmon)**
-  * _Instalação prática do Sysmon via linha de comando e validação dos logs no Event Viewer._
-
-* **[🐧 Passo 03](#passo3)** **Preparando o Atacante (Kali Linux)**
-  * _Colocando o Kali na mesma rede e deixando as ferramentas de ataque prontas._
-
-* **[🔍 Passo 04](#passo4)** **Validação Final (O Teste de Conectividade)**
-  * _Print do comando `ipconfig` / `ifconfig` e o teste de ping entre as duas máquinas._
-
----
 
 ## 🚀 Passo 01 <a name="passo1"></a>
 ### Conectando a Rede Isolada (`Lab-Secure`)
