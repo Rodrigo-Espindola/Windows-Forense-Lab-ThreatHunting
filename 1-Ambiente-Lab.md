@@ -51,37 +51,4 @@ O adaptador de rede da máquina virtual foi configurado sob os seguintes critér
 
 ---
 
-## 🪟 Passo 02 <a name="passo2"></a>
-### Configurando a Vítima (Windows 11 + Sysmon)
 
-Nesta etapa, realizamos a instalação do Sysmon e a aplicação do arquivo de configuração personalizado para coletar a telemetria do sistema.
-
----
-
-#### 1. Instalação do Sysmon
-Executamos o Prompt de Comando como Administrador para instalar o serviço do Sysmon, aceitando automaticamente os termos de uso (EULA).
-
-##### 📸 Evidência da instalação do sysmon:
-![Instalação do Sysmon](imagens/ambiente/Install-Sysmon.png)
-
----
-
-#### 2. Atualização das Regras (.xml)
-Executamos o comando de atualização apontando para o arquivo de configuração customizado.
-
-##### 📸 Evidência da instalação do arquivo de configuração de regras xml:
-![Atualização das Regras](imagens/ambiente/Atualização-das-regras-de-detecção.png)
-
----
-
-## 🐧 Passo 03 <a name="passo3"></a>
-### Preparando o Atacante (Kali Linux)
-> Escreva o conteúdo do Passo 3 aqui...
-
----
-
-## 🔍 Passo 04 <a name="passo4"></a>
-### Validação Final (O Teste de Conectividade)
-> Escreva o conteúdo do Passo 4 aqui...
-
----
