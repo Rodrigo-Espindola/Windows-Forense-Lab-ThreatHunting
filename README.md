@@ -1,6 +1,6 @@
 # 0️⃣ Introdução Geral e Escopo do Projeto
 
-🎯 **Em resumo:** Este projeto transforma uma máquina Windows comum em um ambiente de auditoria avançada. Combinando o Sysmon e o Event Viewer, eu demonstro como emular técnicas de ataque e identificar os indicadores de comprometimento (IoCs) que as ameaças deixam ativas no sistema operacional.
+🎯 **Em resumo:** Este projeto transforma uma máquina Windows comum em um ambiente de visibilidade defensiva. Utilizando a telemetria do Sysmon, implemento regras de identificação focadas em comportamentos críticos de invasores (como evasão de defesa, persistência e roubo de credenciais), capturando os indicadores de comprometimento (IoCs) necessários para detectar ameaças antes do impacto final.
 
 
 
