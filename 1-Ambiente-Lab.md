@@ -15,7 +15,7 @@ Escopo: Ambiente controlado para simulação de ataques (Kali Linux) e coleta de
 
 
   
-## Conectando a Rede Isolada (`Lab-Secure`)
+## Lógica da Rede (`Lab-Secure`)
 Para garantir que os testes defensivos e os artefatos manipulados não ofereçam riscos ao ambiente de produção ou à minha rede física residencial, configurei um segmento de rede logicamente isolado no VirtualBox.
 
 ### 📸 Evidência da Configuração de Rede:
