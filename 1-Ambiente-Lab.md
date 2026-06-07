@@ -9,6 +9,7 @@ Isolamento Lógico: Proteção contra movimentação lateral e prevenção de va
 
 Escopo: Ambiente controlado para simulação de ataques (Kali Linux) e coleta de telemetria (Windows + Sysmon).
 
+<br><br>
 
   
 ## Lógica da Rede (`Lab-Secure`)
@@ -18,6 +19,7 @@ Para garantir que a execução de scripts de teste e as simulações locais não
 * ![](imagens/ambiente/Rede-Nat-config.png)*
 
 ---
+<br><br>
 
 ## 🔍 Descrição e Funcionamento Técnico do Switch Virtual
 
