@@ -9,14 +9,10 @@ Isolamento Lógico: Proteção contra movimentação lateral e prevenção de va
 
 Escopo: Ambiente controlado para simulação de ataques (Kali Linux) e coleta de telemetria (Windows + Sysmon).
 
-## 🗺️ Topologia Lógica e Perímetro de Rede
-
-[ VM Atacante: Kali Linux ] ──(Rede NAT: Lab-Secure)──> [ VM Alvo: Windows + Sysmon ]
-
 
   
 ## Lógica da Rede (`Lab-Secure`)
-Para garantir que os testes defensivos e os artefatos manipulados não ofereçam riscos ao ambiente de produção ou à minha rede física residencial, configurei um segmento de rede logicamente isolado no VirtualBox.
+Para garantir que a execução de scripts de teste e as simulações locais não ofereçam riscos ao ambiente de produção ou à minha rede física residencial, a máquina virtual foi configurada em um segmento de rede logicamente isolado no VirtualBox.
 
 ### 📸 Evidência da Configuração de Rede:
 * ![](imagens/ambiente/Rede-Nat-config.png)*
