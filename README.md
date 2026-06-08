@@ -4,9 +4,7 @@
 
 
 
-## 🗺️ Índice de Navegação Direta
-
-Caso queira ir direto a um ponto específico, utilize o menu abaixo. Cada tópico resolve uma dor específica da cibersegurança defensiva:
+## 🗺️ Índice
 
 | Módulo | O que você vai aprender aqui? |
 | :--- | :--- |
