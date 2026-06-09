@@ -10,6 +10,6 @@
 | :--- | :--- |
 | 🖥️ **[1. Ambiente-Lab](./1-Ambiente-Lab.md)** | Criação do ambiente.
 | 🔍 **[2. Prática-Investigando](./2-Prática-Investigando-Malwares-antigos-Força-Bruta.md)** | Detecção inicial e análise das ameaças presentes e  e Filtro e refinamento para separar o que é ruído do Windows e o que é ameaça real. |
-| 🚨 **[3. Automatizacao-Alertas](./7-Automatizacao-Alertas.md)** | Criação de gatilhos para que o sistema avise automaticamente sobre novos comportamentos maliciosos. |
+| 🚨 **[3. Automatizacao-Alertas](./3-Automatização-Alertas.md)** | Criação de gatilhos para que o sistema avise automaticamente sobre novos comportamentos maliciosos. |
 
 ---
