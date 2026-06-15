@@ -1,8 +1,25 @@
 # 0️⃣ Introdução Geral e Escopo do Projeto
 
-🎯 **Em resumo:**  Este projeto transforma uma máquina Windows comum em um ambiente de visibilidade defensiva. Utilizando a telemetria do Sysmon, implemento regras de identificação focadas em ações táticas e comportamentos críticos de invasores.
+# 📑 Resumo do Laboratório
 
+Em resumo: Este projeto transforma uma máquina Windows comum em um ambiente de **visibilidade defensiva e análise de detecção**.  
+O foco é documentar e demonstrar as **configurações e regras aplicadas no Sysmon**, registrando como cada etapa foi construída e validada no laboratório.  
 
+A telemetria inicial capturada pelo Sysmon é então enviada para o **SIEM**, onde regras de correlação são aplicadas para identificar comportamentos suspeitos.  
+Esse processo permite não apenas detectar técnicas de ataque, mas também realizar a **triagem de falsos positivos**, diferenciando atividades legítimas de ações maliciosas.  
+
+Assim, o laboratório cobre todo o ciclo:  
+- **Coleta cirúrgica com Sysmon**  
+- **Emulação controlada de ataques**  
+- **Construção de regras XML**  
+- **Correlação no SIEM (SPL/KQL/Sigma)**  
+- **Triagem de alertas e falsos positivos**  
+
+O objetivo final é criar um ambiente prático que demonstre como a engenharia de detecção pode reduzir pontos cegos e aumentar a confiabilidade da defesa.
+
+<br><br>
+---
+<br><br>
 
 ## 🗺️ Índice
 
