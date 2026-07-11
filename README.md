@@ -1,10 +1,9 @@
 # 0️⃣ Introdução Geral e Escopo do Projeto
 
 # 📑 Resumo do Laboratório
-
 Resumo do Projeto: Este projeto transforma uma estação Windows em um ambiente de visibilidade defensiva e engenharia de detecção, integrando o Sysmon a um SIEM baseado na Elastic Stack.
 
-O foco central é documentar o ciclo de vida da detecção, desde a configuração e o ajuste fino das regras do Sysmon até a correlação de telemetria no SIEM. Este processo permite não apenas identificar técnicas de ataque, mas também realizar a triagem de falsos positivos, diferenciando atividades legítimas de ações maliciosas.
+O foco central é documentar o ciclo de vida da detecção, desde a configuração e o ajuste das regras do Sysmon até a correlação de telemetria no SIEM. Este processo permite não apenas identificar técnicas de ataque, mas também realizar a triagem de falsos positivos, diferenciando atividades legítimas de ações maliciosas.
 
 O laboratório abrange todo o fluxo operacional:
 
@@ -19,7 +18,6 @@ Correlação: Desenvolvimento de detecções utilizando KQL e baseando-se no fra
 Triagem: Análise de alertas e refinamento de detecções.
 
 O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo poder de busca e análise da Elastic Stack, reduz pontos cegos e aumenta a resiliência da defesa em ambientes corporativos.
-
 <br><br>
 ---
 <br><br>
