@@ -42,11 +42,11 @@ O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo pod
 | Módulo | O que você vai aprender aqui? |
 | :--- | :--- |
 | 🖥️ **[1. Ambiente SIEM](./01-Ambiente-SIEM.md)** | Criação e configuração do ambiente SIEM. |
-| ⚔️ **[2. Simulação de Ameaças](./02-Simulacao-Ameacas/README.md)** | Scripts e documentação da emulação de adversários. |
-| 🔍 **[3. Engenharia de Detecção](./03-Engenharia-Deteccao/README.md)** | Análise de telemetria e baseline. |
-| 🚨 **[4. Regras de Detecção](./04-Regras-Deteccao/README.md)** | Arquivos EQL/KQL/Sigma. |
-| 📈 **[5. Dashboards](./05-Dashboards/README.md)** | Prints e modelos de Kibana. |
-| 🛡️ **[6. Conclusões](./06-Conclusoes/README.md)** | Relatório de lições aprendidas. |
+| ⚔️ **[2. Simulação de Ameaças](./02-Simulacao-Ameacas.md)** | Scripts e documentação da emulação de adversários. |
+| 🔍 **[3. Engenharia de Detecção](./03-Engenharia-Deteccao.md)** | Análise de telemetria e baseline. |
+| 🚨 **[4. Regras de Detecção](./04-Regras-Deteccao.md)** | Arquivos EQL/KQL/Sigma. |
+| 📈 **[5. Dashboards](./05-Dashboards.md)** | Prints e modelos de Kibana. |
+| 🛡️ **[6. Conclusões](./06-Conclusoes.md)** | Relatório de lições aprendidas. |
 
 
 ---
