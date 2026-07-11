@@ -25,7 +25,7 @@ O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo pod
 
 
 ---
-## Tecnologias Utilizadas
+### Tecnologias Utilizadas
 - **Windows:** Sistema operacional alvo.
 - **Sysmon:** Ferramenta de monitoramento de atividades do sistema.
 - **Elastic Stack:** SIEM para armazenamento, busca e visualização (Elasticsearch + Kibana).
