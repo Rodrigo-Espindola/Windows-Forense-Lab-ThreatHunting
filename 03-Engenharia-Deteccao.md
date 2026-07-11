@@ -1,5 +1,5 @@
 [⬅️ Voltar para o Menu Principal](./README.md)
-# 📑 Engenharia de Detecção e Telemetria Inicial
+# 📑 Engenharia de Detecção 
 
 
 ### 📌 Objetivo do Tópico
