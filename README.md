@@ -2,20 +2,23 @@
 
 # 📑 Resumo do Laboratório
 
-Em resumo: Este projeto transforma uma máquina Windows comum em um ambiente de **visibilidade defensiva e análise de detecção**.  
-O foco é documentar e demonstrar as **configurações e regras aplicadas no Sysmon**, registrando como cada etapa foi construída e validada no laboratório.  
+Resumo do Projeto: Este projeto transforma uma estação Windows em um ambiente de visibilidade defensiva e engenharia de detecção, integrando o Sysmon a um SIEM baseado na Elastic Stack.
 
-A telemetria inicial capturada pelo Sysmon é então enviada para o **SIEM**, onde regras de correlação são aplicadas para identificar comportamentos suspeitos.  
-Esse processo permite não apenas detectar técnicas de ataque, mas também realizar a **triagem de falsos positivos**, diferenciando atividades legítimas de ações maliciosas.  
+O foco central é documentar o ciclo de vida da detecção, desde a configuração e o ajuste fino das regras do Sysmon até a correlação de telemetria no SIEM. Este processo permite não apenas identificar técnicas de ataque, mas também realizar a triagem de falsos positivos, diferenciando atividades legítimas de ações maliciosas.
 
-Assim, o laboratório cobre todo o ciclo:  
-- **Coleta cirúrgica com Sysmon**  
-- **Emulação controlada de ataques**  
-- **Construção de regras XML**  
-- **Correlação no SIEM (SPL/KQL/Sigma)**  
-- **Triagem de alertas e falsos positivos**  
+O laboratório abrange todo o fluxo operacional:
 
-O objetivo final é criar um ambiente prático que demonstre como a engenharia de detecção pode reduzir pontos cegos e aumentar a confiabilidade da defesa.
+Coleta: Implementação e configuração do Sysmon.
+
+Emulação: Execução de ataques controlados para geração de telemetria.
+
+Normalização: Aplicação de regras (XML para Sysmon e YAML para Elastic).
+
+Correlação: Desenvolvimento de detecções utilizando KQL e baseando-se no framework Sigma.
+
+Triagem: Análise de alertas e refinamento de detecções.
+
+O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo poder de busca e análise da Elastic Stack, reduz pontos cegos e aumenta a resiliência da defesa em ambientes corporativos.
 
 <br><br>
 ---
