@@ -22,7 +22,7 @@ O laboratório abrange todo o ciclo de vida de um incidente:
 ## Objetivo
 O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo poder de busca e análise da **Elastic Stack**, reduz pontos cegos e aumenta a resiliência da defesa em ambientes corporativos.
 
-Tecnologias Utilizadas
+## Ferramentas
 - **Windows:** Sistema operacional alvo.
 - **Sysmon:** Ferramenta de monitoramento de atividades do sistema.
 - **Elastic Stack:** SIEM para armazenamento, busca e visualização (Elasticsearch + Kibana).
