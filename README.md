@@ -35,12 +35,14 @@ O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo pod
 ---
 <br><br>
 
-## 🗺️ Índice
+## Índice
 
-| Módulo | O que você vai aprender aqui? |
+| Módulo | Caminho |
 | :--- | :--- |
-| 🖥️ **[1. Ambiente-Lab](./1-Ambiente-Lab.md)** | Criação do ambiente.
-| 🔍 **[2. Prática-Investigando](./2-Prática-Investigando-Malwares-antigos-Força-Bruta.md)** | Detecção inicial e análise das ameaças presentes e  e Filtro e refinamento para separar o que é ruído do Windows e o que é ameaça real. |
-| 🚨 **[3. Automatizacao-Alertas](./3-Automatização-Alertas.md)** | Criação de gatilhos para que o sistema avise automaticamente sobre novos comportamentos maliciosos. |
+| ⚔️ **1. Simulação de Ameaças** | 01-Simulacao-Ameacas/ → scripts e documentação da emulação de adversários |
+| 🔍 **2. Engenharia de Detecção** | 02-Engenharia-Deteccao/ → análise de telemetria e baseline |
+| 🚨 **3. Regras de Detecção** | 03-Regras-Deteccao/ → arquivos EQL/KQL/Sigma |
+| 📈 **4. Dashboards** | 04-Dashboards/ → prints e modelos de Kibana |
+| 🛡️ **5. Conclusões** | 05-Conclusoes/ → relatório de lições aprendidas |
 
 ---
