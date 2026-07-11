@@ -37,13 +37,16 @@ O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo pod
 
 ## Índice
 
+## Índice
+
 | Módulo | O que você vai aprender aqui? |
 | :--- | :--- |
-| ⚔️ **[1. Simulação de Ameaças](./01-Simulacao-Ameacas/README.md)** | Scripts e documentação da emulação de adversários. |
-| 🔍 **[2. Engenharia de Detecção](./02-Engenharia-Deteccao/README.md)** | Análise de telemetria e baseline. |
-| 🚨 **[3. Regras de Detecção](./03-Regras-Deteccao/README.md)** | Arquivos EQL/KQL/Sigma. |
-| 📈 **[4. Dashboards](./04-Dashboards/README.md)** | Prints e modelos de Kibana. |
-| 🛡️ **[5. Conclusões](./05-Conclusoes/README.md)** | Relatório de lições aprendidas. |
+| 🖥️ **[1. Ambiente SIEM](./01-Ambiente-SIEM/README.md)** | Criação e configuração do ambiente SIEM. |
+| ⚔️ **[2. Simulação de Ameaças](./02-Simulacao-Ameacas/README.md)** | Scripts e documentação da emulação de adversários. |
+| 🔍 **[3. Engenharia de Detecção](./03-Engenharia-Deteccao/README.md)** | Análise de telemetria e baseline. |
+| 🚨 **[4. Regras de Detecção](./04-Regras-Deteccao/README.md)** | Arquivos EQL/KQL/Sigma. |
+| 📈 **[5. Dashboards](./05-Dashboards/README.md)** | Prints e modelos de Kibana. |
+| 🛡️ **[6. Conclusões](./06-Conclusoes/README.md)** | Relatório de lições aprendidas. |
 
 
 ---
