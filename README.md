@@ -37,8 +37,6 @@ O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo pod
 
 ## Índice
 
-## Índice
-
 | Módulo | O que você vai aprender aqui? |
 | :--- | :--- |
 | 🖥️ **[1. Ambiente SIEM](./01-Ambiente-SIEM.md)** | Criação e configuração do ambiente SIEM. |
