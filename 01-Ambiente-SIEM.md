@@ -74,24 +74,50 @@ Cadeia lógica do ambiente:
 
 ## O Papel do Docker (Elasticsearch + Kibana)
 
-
-
 Neste cenário, o Docker é utilizado exclusivamente como **camada de infraestrutura da stack de análise**, e não como gerador de comportamento.
 
-
-
 - **Isolamento dos serviços**: Elasticsearch e Kibana rodam em containers separados, evitando instalação direta desses serviços no sistema operacional host.
-
 - **Ambiente de estudo descartável**: os containers podem ser recriados a qualquer momento, permitindo resetar a base de dados de estudo sem afetar o host.
-
 - **Destino final da telemetria**: o Elasticsearch (dentro do Docker) recebe os eventos enviados pelo Elastic Agent, e o Kibana é utilizado como **interface de consulta e visualização** desses dados.
-
 - **Simplicidade operacional**: por rodar apenas dois serviços (sem Logstash, sem Fleet Server), o ambiente Docker fica leve e focado unicamente em armazenamento e análise.
-
-
 
 > 💡 Aqui o Docker representa o **"laboratório de análise"**, enquanto a geração de eventos acontece inteiramente fora dele, no host.
 
+### Explicação do Docker Compose
+Este arquivo orquestra a stack de análise, configurando o Elasticsearch em modo single-node e desativando camadas de segurança para simplificar o ambiente de testes local.
+
+```yaml
+version: '3.8'
+
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - xpack.security.enrollment.enabled=false
+      - xpack.security.http.ssl.enabled=false
+      - xpack.security.transport.ssl.enabled=false
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g" # Limita a RAM para não travar o PC
+    ports:
+      - 9200:9200
+    volumes:
+      - es_data_clean:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.12.0
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - XPACK_SECURITY_ENABLED=false
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+
+volumes:
+  es_data_clean: # Mudamos o nome do volume para garantir que ele nasça do zero
 
 
 ---
