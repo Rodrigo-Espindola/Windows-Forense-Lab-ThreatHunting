@@ -118,7 +118,7 @@ services:
 
 volumes:
   es_data_clean: # Mudamos o nome do volume para garantir que ele nasça do zero
-` ``` `
+```
 
 ---
 
