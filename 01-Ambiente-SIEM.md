@@ -83,8 +83,8 @@ Neste cenário, o Docker é utilizado exclusivamente como **camada de infraestru
 
 > 💡 Aqui o Docker representa o **"laboratório de análise"**, enquanto a geração de eventos acontece inteiramente fora dele, no host.
 
-### Explicação do Docker Compose
-Este arquivo orquestra a stack de análise, configurando o Elasticsearch em modo single-node e desativando camadas de segurança para simplificar o ambiente de testes local.
+### Explicação do Código
+Este arquivo configura o Elastic Agent em modo Standalone, definindo manualmente a coleta de eventos do Sysmon no Windows e enviando-os diretamente para o Elasticsearch rodando no Docker, sem intermediários ou gerenciamento via Fleet Server.
 
 ```yaml
 version: '3.8'
@@ -188,63 +188,49 @@ Essa riqueza de contexto é o que transforma a execução de um script simples e
 
 ## A Lógica de Coleta e Envio: Elastic Agent Standalone
 
-
-
 Esta é a camada que conecta a captura de eventos no host à stack de análise rodando no Docker — e o ponto onde este laboratório se diferencia por adotar uma abordagem **manual e não gerenciada**.
-
-
 
 ### O que significa operar em modo Standalone
 
-
-
-- O Elastic Agent pode operar de duas formas: **gerenciado** (via Fleet Server/Kibana, com políticas centralizadas) ou **Standalone** (configurado localmente, sem dependência de um servidor de gerenciamento).
-
+- O Elastic Agent pode operar de duas formas: **gerenciado** (via Fleet Server/Kibana, com políticas centralizadas) ou **Standalone** (configurado localmente, sem dependência de um servidor de gerenciamento).  
 - No modo Standalone, **toda a lógica de coleta é definida manualmente** pelo engenheiro, através de um arquivo de configuração local — não há orquestração remota nem políticas aplicadas via interface gráfica.
-
-
 
 ### A abordagem prática adotada neste ambiente
 
-
-
-- **Download direto do agente**: o pacote `.zip` do Elastic Agent é obtido diretamente do site oficial e extraído no host Windows, sem uso de instaladores gerenciados ou registro prévio em um Fleet Server.
-
-- **Configuração manual via `elastic-agent.yml`**: o arquivo de configuração é editado à mão para definir explicitamente as fontes de dados — neste caso, instruindo o agente a ler o **canal de logs do Sysmon** no Visualizador de Eventos do Windows (`Microsoft-Windows-Sysmon/Operational`).
-
-- **Envio direto para o Elasticsearch (rodando no Docker)**: o output do agente é apontado diretamente para a **porta 9200**, endereço exposto pelo container do Elasticsearch, eliminando intermediários como Logstash ou Fleet Server nesta etapa do pipeline.
-
-- **Execução como serviço nativo do Windows**: após configurado, o agente é instalado e registrado como um **serviço do sistema operacional**, garantindo que a coleta seja persistente, resiliente a reinicializações e operando em segundo plano de forma nativa — mesmo estando fora do Docker.
-
-
+- **Download direto do agente**: o pacote `.zip` do Elastic Agent é obtido diretamente do site oficial e extraído no host Windows, sem uso de instaladores gerenciados ou registro prévio em um Fleet Server.  
+- **Configuração manual via `elastic-agent.yml`**: o arquivo de configuração é editado à mão para definir explicitamente as fontes de dados — neste caso, instruindo o agente a ler o **canal de logs do Sysmon** no Visualizador de Eventos do Windows (`Microsoft-Windows-Sysmon/Operational`).  
+- **Envio direto para o Elasticsearch (rodando no Docker)**: o output do agente é apontado diretamente para a **porta 9200**, endereço exposto pelo container do Elasticsearch, eliminando intermediários como Logstash ou Fleet Server nesta etapa do pipeline.  
+- **Execução como serviço nativo do Windows**: após configurado, o agente é instalado e registrado como um **serviço do sistema operacional**, garantindo que a coleta seja persistente, resiliente a reinicializações e operando em segundo plano de forma nativa — mesmo estando fora do Docker.  
 
 > 💡 **Por que Standalone?** Essa escolha é deliberada e didática: operar sem Fleet Server força o entendimento completo da estrutura de inputs, outputs e autenticação do Elastic Agent — conhecimento que se perde quando tudo é abstraído por uma interface de gerenciamento centralizada. É a diferença entre "clicar em um botão" e "saber exatamente o que aquele botão faria".
 
-
-
 ---
 
+### Explicação do Código
+Este trecho configura o **Elastic Agent** em modo Standalone:  
 
+```yaml
+agent.logging.level: info
 
-## Fluxo e Sinergia da Análise de Logs
+outputs:
+  default:
+    type: elasticsearch
+    hosts: ["http://localhost:9200"]
+    ssl.verification_mode: none
 
-
-
-O valor deste laboratório está na **integração lógica** entre host e stack de análise, formando um pipeline coeso de ponta a ponta:
-
-
-
-1. **Simulação (Scripts no Host)** — Scripts de teste são executados diretamente no Windows, reproduzindo situações maliciosas controladas.
-
-2. **Captura (Sysmon)** — O Sysmon intercepta essa atividade em nível de kernel/sistema, registrando eventos detalhados no log do Windows.
-
-3. **Coleta e Envio (Elastic Agent Standalone)** — O agente, configurado manualmente, lê os eventos do canal do Sysmon e os transporta diretamente para o Elasticsearch via porta 9200.
-
-4. **Armazenamento e Análise (Docker: Elasticsearch + Kibana)** — Os dados chegam estruturados ao Elasticsearch, ficando disponíveis no Kibana para consultas, criação de regras de detecção e construção de dashboards de investigação.
-
-
+inputs:
+  - type: winlog
+    id: sysmon-logs
+    data_stream.namespace: default
+    use_output: default
+    streams:
+      - data_stream:
+          dataset: windows.sysmon_operational
+        name: Microsoft-Windows-Sysmon/Operational
 
 ```
+
+---
 
 Scripts de teste (host, simulação maliciosa)
 
