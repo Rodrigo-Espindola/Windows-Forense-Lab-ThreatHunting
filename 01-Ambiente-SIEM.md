@@ -204,7 +204,6 @@ Esta é a camada que conecta a captura de eventos no host à stack de análise r
 
 > 💡 **Por que Standalone?** Essa escolha é deliberada e didática: operar sem Fleet Server força o entendimento completo da estrutura de inputs, outputs e autenticação do Elastic Agent — conhecimento que se perde quando tudo é abstraído por uma interface de gerenciamento centralizada. É a diferença entre "clicar em um botão" e "saber exatamente o que aquele botão faria".
 
----
 
 ### Explicação do Código
 Este trecho configura o **Elastic Agent** em modo Standalone:  
