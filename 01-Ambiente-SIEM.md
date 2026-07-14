@@ -63,7 +63,6 @@ Neste cenário, o Docker é utilizado exclusivamente como **camada de infraestru
 
 ### 📄 `docker-compose.yml`
 
-> Caminho no repositório: `01-infraestrutura-siem/docker-compose.yml`
 
 Este arquivo sobe apenas os dois serviços necessários para o laboratório — Elasticsearch (armazenamento/indexação) e Kibana (visualização) — sem Logstash e sem Fleet Server, mantendo o ambiente enxuto e focado.
 
@@ -156,7 +155,6 @@ Esta é a camada que conecta a captura de eventos no host à stack de análise r
 
 ### 📄 `elastic-agent.yml`
 
-> Caminho no repositório: `01-infraestrutura-siem/config/elastic-agent.yml`
 
 Este trecho configura o **Elastic Agent** em modo Standalone, definindo manualmente a coleta de eventos do Sysmon no Windows e enviando-os diretamente para o Elasticsearch rodando no Docker, sem intermediários ou gerenciamento via Fleet Server.
 
