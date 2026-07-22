@@ -1,27 +1,44 @@
 # 0️⃣ Introdução Geral e Escopo do Projeto
 
-# 📑 Resumo do Laboratório
+# 🛡️ Windows DFIR, Threat Hunting & Detection Engineering Lab
 
-Este projeto transforma uma estação Windows em um ambiente de visibilidade defensiva e engenharia de detecção, integrando o **Sysmon** a um SIEM baseado na **Elastic Stack**.
+## 📑 Apresentação do Laboratório
 
-O foco central é documentar o ciclo de vida da detecção, desde a configuração e o ajuste das regras do Sysmon até a correlação de telemetria no SIEM. Este processo permite não apenas identificar técnicas de ataque, mas também realizar a triagem de falsos positivos, diferenciando atividades legítimas de ações maliciosas.
+Este repositório documenta a construção de um laboratório prático de **Blue Team**, voltado para **Windows DFIR**, **Threat Hunting** e **Engenharia de Detecção**.
 
----
+O ambiente foi desenvolvido para transformar uma estação Windows em uma fonte de telemetria defensiva, integrando o **Sysmon** a um SIEM baseado na **Elastic Stack**.
 
-## Fluxo Operacional
-O laboratório abrange todo o ciclo de vida de um incidente:
+O projeto não representa um curso ou apenas uma coleção de anotações. Ele documenta um fluxo técnico completo de laboratório, no qual comportamentos potencialmente maliciosos são executados de maneira controlada, coletados pelo Sysmon, analisados no Elastic SIEM e posteriormente transformados em hipóteses e regras de detecção.
 
-* **Coleta:** Implementação e configuração do Sysmon para captura de eventos críticos.
-* **Emulação:** Execução de ataques controlados para geração de telemetria baseada em ameaças reais.
-* **Normalização:** Aplicação de regras de filtragem e estruturação (XML para Sysmon e YAML para Elastic).
-* **Correlação:** Desenvolvimento de detecções utilizando **KQL** (*Kibana Query Language*) e baseando-se no framework **Sigma**.
-* **Triagem:** Análise de alertas e refinamento contínuo das detecções para redução de falsos positivos.
+Cada etapa procura reproduzir atividades realizadas por profissionais de **SOC**, **Threat Hunting**, **DFIR** e **Detection Engineering**.
 
 ---
 
-## Objetivo
-O objetivo final é demonstrar como a engenharia de detecção, apoiada pelo poder de busca e análise da **Elastic Stack**, reduz pontos cegos e aumenta a resiliência da defesa em ambientes corporativos.
+## 🔎 Propósito do Projeto
 
+O propósito deste laboratório é demonstrar, de maneira prática e documentada, como diferentes técnicas de ataque podem ser observadas a partir da telemetria de um endpoint Windows.
+
+O projeto acompanha o processo desde a geração dos eventos até a criação e validação das detecções:
+
+```text
+Simulação de ameaças
+        ↓
+Geração de telemetria no Windows
+        ↓
+Coleta de eventos pelo Sysmon
+        ↓
+Ingestão dos dados no Elastic SIEM
+        ↓
+Análise e Threat Hunting
+        ↓
+Engenharia de detecção
+        ↓
+Criação e validação de regras
+        ↓
+Visualização em dashboards
+        ↓
+Documentação das lições aprendidas
+```
 ---
 
 ## Ferramentas
