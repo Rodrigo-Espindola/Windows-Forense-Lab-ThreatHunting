@@ -1,5 +1,3 @@
-# 0️⃣ Introdução Geral e Escopo do Projeto
-
 # 🛡️ Windows DFIR, Threat Hunting & Detection Engineering Lab
 
 ## 📑 Apresentação do Laboratório
