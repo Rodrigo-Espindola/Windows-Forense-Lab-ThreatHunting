@@ -55,7 +55,7 @@ Documentação das lições aprendidas
 | Módulo | O que você vai aprender aqui? |
 | :--- | :--- |
 | 🖥️ **[1. Ambiente SIEM](./01-Ambiente-SIEM.md)** | Criação e configuração do ambiente SIEM. |
-| ⚔️ **[2. Simulação de Ameaças](./02-Simulaçao-Ameaças.md)** | Scripts e documentação da emulação de adversários. |
+| ⚔️ **[2. Simulação de Ameaças](./02-Simulação-Ameaças.md)** | Scripts e documentação da emulação de adversários. |
 | 🔍 **[3. Engenharia de Detecção](./03-Engenharia-Detecçao.md)** | Análise de telemetria e baseline. |
 | 🚨 **[4. Regras de Detecção](./04-Regras-Detecçao.md)** | Arquivos EQL/KQL/Sigma. |
 | 📈 **[5. Dashboards](./05-Dashboards.md)** | Prints e modelos de Kibana. |
